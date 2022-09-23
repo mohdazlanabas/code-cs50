@@ -1,0 +1,5 @@
+range - alternate to for loop
+list- 
+tuples- immutable list 
+dict- hash table
+set - filter duplicate

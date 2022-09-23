@@ -1,12 +1,10 @@
 words = set()
 
-
 def check(word):
     if word.lower() in word:
         return True
     else:
         return False
-
 
 def load(dictionary):
     file = open(dictionary, "r")
@@ -16,10 +14,8 @@ def load(dictionary):
     file.close()
     return True
 
-
 def size():
     return len(words)
-
 
 def unload():
     return True
